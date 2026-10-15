@@ -29,3 +29,14 @@ Fichiers et data source : https://physionet.org/content/challenge-2016/1.0.0/#fi
   year={2021}
 }
 
+@article{article,
+  author = {Zaman, Khalid and Sah, Melike and Direkoglu, Cem and Unoki, Masashi},
+  year = {2023},
+  month = {01},
+  pages = {106620-106649},
+  title = {A Survey of Audio Classification Using Deep Learning},
+  volume = {11},
+  journal = {IEEE Access},
+  doi = {10.1109/ACCESS.2023.3318015}
+}
+

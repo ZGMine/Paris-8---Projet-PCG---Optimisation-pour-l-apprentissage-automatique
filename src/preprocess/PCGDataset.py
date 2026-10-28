@@ -2,6 +2,8 @@ from pathlib import Path
 
 from torch.utils.data import Dataset
 
+import torchaudio
+
 import pandas as pd
 
 
@@ -57,6 +59,7 @@ class PCGDataset(Dataset):
         # torchaudio.load returns: (waveform_tensor, sample_rate)
         # We generally only need the waveform, but some transforms require the sample_rate
         waveform, sample_rate = torchaudio.load(wav_path)
+        waveform = waveform[0]
 
         # Apply transformations if provided
         if self.transform:

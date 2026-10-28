@@ -6,5 +6,6 @@ torchcodec==0.17.0+cu126
 # pip3 install torch==2.14.1 torchvision==0.29.1 torchaudio==2.11.0 torchcodec==0.17.0 --index-url https://download.pytorch.org/whl/cu126
 # https://pytorch.org/get-started/locally/
 # https://docs.pytorch.org/audio/stable/installation.html
+torchinfo==1.8.0
 pandas==3.0.6
 matplotlib==3.11.2
